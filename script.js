@@ -1,9 +1,9 @@
-let title = 'My JS Project';
-let screens = "Простые, Сложные, Интерактивные";
-let screenPrice = 1000;
+let title = prompt('Как называется ваш проект?');
+let screens = prompt('Какие типы экранов нужно разработать?');
+let screenPrice = prompt('Сколько будет стоить данная работа?');
 let rollback = 20;
 let fullPrice = 2000;
-let adaptive = true;
+let adaptive = prompt('Нужен ли адаптив на сайте?');
 
 console.log(typeof title);
 console.log(typeof fullPrice);
